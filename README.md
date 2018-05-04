@@ -1,4 +1,4 @@
-### 正态分布: 用机器学习来打败机器学习
+### 正态分布: 用机器学习来打败机器学习, 本质上都是算法(用计算机理解的数学)
 
 ```bash
 ➜  KB2E_111 git:(master) ag normal  | grep distributio
@@ -9,6 +9,56 @@ CTransR/Train_CTransR.cpp:17://normal distribution
 PTransE/PTransE_add/Train_TransE_path.cpp:24://normal distribution
 PTransE/PTransE_RNN/Train_TransE_path.cpp:24://normal distribution
 PTransE/PTransE_mul/Train_TransE_path.cpp:24://normal distribution
+➜  KB2E_111 git:(master)
+
+➜  KB2E_111 git:(master) tree
+.
+├── CTransR
+│   ├── Test_CTransR.cpp
+│   ├── Train_CTransR.cpp
+│   └── makefile
+├── LICENSE
+├── PTransE
+│   ├── PCRA.py
+│   ├── PTransE_RNN
+│   │   ├── Test_TransE_path.cpp
+│   │   ├── Train_TransE_path.cpp
+│   │   └── makefile
+│   ├── PTransE_add
+│   │   ├── Test_TransE_path.cpp
+│   │   ├── Train_TransE_path.cpp
+│   │   └── makefile
+│   ├── PTransE_mul
+│   │   ├── Test_TransE_path.cpp
+│   │   ├── Train_TransE_path.cpp
+│   │   └── makefile
+│   ├── README.md
+│   ├── data
+│   │   └── n2n.txt
+│   └── makefile
+├── README.md
+├── TransE
+│   ├── Test_TransE.cpp   ##
+│   ├── Train_TransE.cpp
+│   └── makefile
+├── TransH
+│   ├── Train_TransH.cpp  ## 
+│   └── makefile
+├── TransR
+│   ├── Test_TransR.cpp
+│   ├── Train_TransR.cpp  ##
+│   └── makefile
+├── cluster
+│   ├── apcluster.cpp
+│   ├── generate.cpp
+│   ├── makefile
+│   ├── prepare.cpp
+│   └── run.sh
+├── data.zip
+└── makefile
+
+10 directories, 33 files
+
 ➜  KB2E_111 git:(master)
 
 ```
