@@ -1,3 +1,18 @@
+### 正态分布: 用机器学习来打败机器学习
+
+```bash
+➜  KB2E_111 git:(master) ag normal  | grep distributio
+TransH/Train_TransH.cpp:16://normal distribution
+TransR/Train_TransR.cpp:18://normal distribution
+TransE/Train_TransE.cpp:18://normal distribution
+CTransR/Train_CTransR.cpp:17://normal distribution
+PTransE/PTransE_add/Train_TransE_path.cpp:24://normal distribution
+PTransE/PTransE_RNN/Train_TransE_path.cpp:24://normal distribution
+PTransE/PTransE_mul/Train_TransE_path.cpp:24://normal distribution
+➜  KB2E_111 git:(master)
+
+```
+
 New: Add PTransE (EMNLP 2015) code!
 
 Evaluation Results
